@@ -10,12 +10,13 @@ import chalk from 'chalk';
 
 // BONUS: función básica
 //function saludar(nombre) {
-  //console.log(chalk.cyan(`Hola ${nombre}, ¡bienvenido al mundo JavaScript! 🌍`)); 
+  //console.log(chalk.cyan(`Hola ${nombre}, ¡bienvenido al mundo JavaScript! 🌍`));
 //}
 
 function simularError() {
   console.warn(chalk.yellow("❗Atención: esto podría generar un error"));
   console.error(chalk.red("❌ Error simulado: no me gusta tu tonito"));
+  console.info(chalk.green('📗Se ha recuperado. Buen trabajo'));
 }
 
 simularError();
