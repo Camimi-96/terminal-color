@@ -14,6 +14,7 @@ import chalk from 'chalk';
 //}
 function mostrarEstado(nombre) {
   console.info(chalk.cyan(`El programa a iniciado! 🌍`)); 
+  console.info(chalk.green('💡Proceso en ejecucion'));
 }
 
 mostrarEstado();
