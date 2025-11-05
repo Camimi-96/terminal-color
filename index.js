@@ -9,9 +9,28 @@ console.error(chalk.red('❌ Error simulado: algo salió demasiado bien.'));
 console.log(chalk.magenta('💡 Recuerda: la práctica hace al programador.'));
 
 // BONUS: función básica
-function saludar(nombre) {
-  console.log(chalk.cyan(`Hola ${nombre}, ¡bienvenido al mundo JavaScript! 🌍`));
+//function saludar(nombre) {
+  //console.log(chalk.cyan(`Hola ${nombre}, ¡bienvenido al mundo JavaScript! 🌍`));
+//}
+
+function simularError() {
+  console.warn(chalk.yellow("❗Atención: esto podría generar un error"));
+  console.error(chalk.red("❌ Error simulado: no me gusta tu tonito"));
+  console.info(chalk.green('📗Se ha recuperado. Buen trabajo'));
 }
 
+simularError();
+  //console.log(chalk.cyan(`Hola ${nombre}, ¡bienvenido al mundo JavaScript! 🌍`)); 
+//}
+function mostrarEstado(nombre) {
+  console.log(chalk.cyan(`El programa ha iniciado! 🌍`)); 
+  console.info(chalk.green('💡 Proceso en ejecucion'));
+  console.warn(chalk.red('✅ El programa ha terminado exitosamente'));
+}
+
+mostrarEstado();
+
+
+
 // Prueba de función
-saludar("Equipo JS");
+//("Equipo JS");
