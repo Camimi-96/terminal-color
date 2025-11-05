@@ -20,3 +20,17 @@ function simularError() {
 }
 
 simularError();
+  //console.log(chalk.cyan(`Hola ${nombre}, ¡bienvenido al mundo JavaScript! 🌍`)); 
+//}
+function mostrarEstado(nombre) {
+  console.log(chalk.cyan(`El programa ha iniciado! 🌍`)); 
+  console.info(chalk.green('💡 Proceso en ejecucion'));
+  console.warn(chalk.red('✅ El programa ha terminado exitosamente'));
+}
+
+mostrarEstado();
+
+
+
+// Prueba de función
+//("Equipo JS");
