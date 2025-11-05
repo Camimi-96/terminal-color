@@ -13,8 +13,9 @@ import chalk from 'chalk';
   //console.log(chalk.cyan(`Hola ${nombre}, ¡bienvenido al mundo JavaScript! 🌍`)); 
 //}
 function mostrarEstado(nombre) {
-  console.info(chalk.cyan(`El programa a iniciado! 🌍`)); 
-  console.info(chalk.green('💡Proceso en ejecucion'));
+  console.log(chalk.cyan(`El programa ha iniciado! 🌍`)); 
+  console.info(chalk.green('💡 Proceso en ejecucion'));
+  console.warn(chalk.red('✅ El programa ha terminado exitosamente'));
 }
 
 mostrarEstado();
